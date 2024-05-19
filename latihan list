@@ -1,0 +1,40 @@
+# soal 1
+bilangan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+bilangan.insert(5, 5)
+print(bilangan,"\n")
+
+# soal 2
+bilangan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+bilangan.remove(4)
+print(bilangan,"\n")
+
+# soal 3
+bilangan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+split_index= 5
+baris_pertama = bilangan[:split_index]
+baris_kedua = bilangan[split_index:]
+print(baris_pertama)
+print(baris_kedua,"\n")
+
+# soal 4
+bilangan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+third_index = len(bilangan) // 3
+second_index = third_index * 2
+baris_pertama = bilangan[:third_index]
+baris_kedua = bilangan[third_index : second_index]
+baris_ketiga = bilangan[second_index:]
+print(baris_pertama)
+print(baris_kedua)
+print(baris_ketiga,"\n")
+
+# soal 5
+baris1 = [1, 2, 3]
+baris2 = [4, 5, 6]
+baris3 = [7,8,9,10]
+gabungan = baris1 + baris2 +baris3
+print(gabungan,"\n")
+
+# soal 6
+bilangan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+panggil = bilangan [0:6:3]
+print(panggil)
